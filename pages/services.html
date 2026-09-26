@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Grain & Mortar</title>
+    
+    <!-- Security: Content-Security-Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com;">
+    
+    <!-- Security: X-Frame-Options -->
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    
+    <!-- Security: X-Content-Type-Options -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body class="grain-overlay">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="/" class="logo">Grain & <span>Mortar</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="/home" class="nav-link">Home</a>
+                <a href="/portfolio" class="nav-link">Portfolio</a>
+                <a href="/services" class="nav-link active">Services</a>
+                <a href="/about-us" class="nav-link">About Us</a>
+                <a href="/our-story" class="nav-link">Our Story</a>
+                <a href="/team" class="nav-link">Team</a>
+                <a href="/careers" class="nav-link">Careers</a>
+                <a href="/contact-us" class="nav-link">Contact Us</a>
+                <a href="/plan" class="nav-link btn btn-primary" style="padding: 6px 16px;">Plan</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Section -->
+    <section id="services" class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title">Our Services</h1>
+            <p class="hero-subtitle">Comprehensive digital solutions tailored to your business needs.</p>
+            <a href="#web-dev" class="btn btn-primary">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- Service Cards -->
+    <section id="service-details" class="section">
+        <div class="container">
+            <h2 class="section-title">What We Offer</h2>
+            
+            <div id="web-dev" class="grid-3">
+                <div class="card">
+                    <h3>Web Development</h3>
+                    <p><strong>Custom Websites & Applications</strong></p>
+                    <ul style="margin: 16px 0; padding-left: 24px; color: var(--text-secondary); list-style: disc;">
+                        <li>E-commerce platforms (Shopify, WooCommerce, custom)</li>
+                        <li>Corporate websites with SEO optimization</li>
+                        <li>SaaS dashboards and admin panels</li>
+                        <li>Progressive Web Apps (PWA)</li>
+                        <li>API development and integration</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>UI/UX Design</h3>
+                    <p><strong>User-Centered Digital Experiences</strong></p>
+                    <ul style="margin: 16px 0; padding-left: 24px; color: var(--text-secondary); list-style: disc;">
+                        <li>Wireframing and prototyping</li>
+                        <li>Interface design systems</li>
+                        <li>User research and testing</li>
+                        <li>Motion graphics and animations</li>
+                        <li>Accessibility compliance (WCAG 2.1)</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Creative Direction</h3>
+                    <p><strong>Strategic Brand & Digital Vision</strong></p>
+                    <ul style="margin: 16px 0; padding-left: 24px; color: var(--text-secondary); list-style: disc;">
+                        <li>Brand identity development</li>
+                        <li>Digital product strategy</li>
+                        <li>Creative concept and storytelling</li>
+                        <li>Multimedia content creation</li>
+                        <li>Design system architecture</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Mobile Development</h3>
+                    <p><strong>iOS & Android Applications</strong></p>
+                    <ul style="margin: 16px 0; padding-left: 24px; color: var(--text-secondary); list-style: disc;">
+                        <li>Native iOS (Swift)</li>
+                        <li>Native Android (Kotlin)</li>
+                        <li>Cross-platform frameworks</li>
+                        <li>Mobile game development</li>
+                        <li>App store optimization</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Cloud Solutions</h3>
+                    <p><strong>Scalable Infrastructure & Deployment</strong></p>
+                    <ul style="margin: 16px 0; padding-left: 24px; color: var(--text-secondary); list-style: disc;">
+                        <li>AWS, Azure, GCP architecture</li>
+                        <li>Serverless development</li>
+                        <li>CI/CD pipeline setup</li>
+                        <li>CLOUD deployment strategies</li>
+                        <li>Infrastructure as Code (Terraform)</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Digital Marketing</h3>
+                    <p><strong>Growth & Conversion Optimization</strong></p>
+                    <ul style="margin: 16px 0; padding-left: 24px; color: var(--text-secondary); list-style: disc;">
+                        <li>SEO and content strategy</li>
+                        <li>Paid advertising (Google, Meta)</li>
+                        <li>Email marketing automation</li>
+                        <li>A/B testing and analytics</li>
+                        <li>Conversion rate optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Process</h2>
+            <div style="display: flex; justify-content: space-between; margin-top: 48px;">
+                <div style="text-align: center; flex: 1;">
+                    <div style="width: 40px; height: 40px; border-radius: 50%; background-color: var(--bg-secondary); border: 2px solid var(--text-primary); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px;">
+                        <span style="font-size: 1.25rem;">1</span>
+                    </div>
+                    <h3 style="margin-bottom: 8px;">Discovery</h3>
+                    <p style="color: var(--text-secondary);">We understand your goals and audience.</p>
+                </div>
+                <div style="text-align: center; flex: 1;">
+                    <div style="width: 40px; height: 40px; border-radius: 50%; background-color: var(--bg-secondary); border: 2px solid var(--text-primary); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px;">
+                        <span style="font-size: 1.25rem;">2</span>
+                    </div>
+                    <h3 style="margin-bottom: 8px;">Design</h3>
+                    <p style="color: var(--text-secondary);">We craft beautiful, functional interfaces.</p>
+                </div>
+                <div style="text-align: center; flex: 1;">
+                    <div style="width: 40px; height: 40px; border-radius: 50%; background-color: var(--bg-secondary); border: 2px solid var(--text-primary); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px;">
+                        <span style="font-size: 1.25rem;">3</span>
+                    </div>
+                    <h3 style="margin-bottom: 8px;">Development</h3>
+                    <p style="color: var(--text-secondary);">We build robust, scalable solutions.</p>
+                </div>
+                <div style="text-align: center; flex: 1;">
+                    <div style="width: 40px; height: 40px; border-radius: 50%; background-color: var(--bg-secondary); border: 2px solid var(--text-primary); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px;">
+                        <span style="font-size: 1.25rem;">4</span>
+                    </div>
+                    <h3 style="margin-bottom: 8px;">Launch & Support</h3>
+                    <p style="color: var(--text-secondary);">We ensure your success long-term.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>&copy; 2024 Grain & Mortar. All rights reserved.</div>
+            <div class="social-links">
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Security: Main JavaScript -->
+    <script src="/js/security.js"></script>
+    <script defer src="/js/main.js"></script>
+</body>
+</html>
+<EOF>
